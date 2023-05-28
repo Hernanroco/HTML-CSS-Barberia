@@ -393,4 +393,15 @@ img {
   .lista-diferenciales{
     width: 100%;
   }
+  .parrafo-servicios {
+    margin: 20px;
+  }
+  .servicios {
+    margin: 20px;
+    display: grid;
+  }
+
+  .servicios li {
+    margin: 20px 1.5%;
+  }
 }   
