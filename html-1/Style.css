@@ -322,18 +322,32 @@ footer {
   width: 15%;
 }
 
+.contenedor-servicios {
+  align-items: center;
+  text-align: center;
+}
+
 .parrafo-servicios {
   padding: auto;
   margin: 30px;
+  text-align: center;
 }
 
 .servicios {
   width: 940px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .servicios p {
   margin: 10px;
+  text-align: center;
+}
+
+.servicios ul {
+  text-align: center;
+  margin: 250px;
+  width: 100%;
 }
 
 .servicios li {
@@ -367,10 +381,12 @@ footer {
 .servicios h2{
   font-size: 30px;
   font-weight: bold;
+  text-align: center;
 }
 
 .descripcion {
   font-size: 18px;
+  text-align: center;
   
 }
 
@@ -378,6 +394,7 @@ footer {
   font-size: 20px;
   font-weight: bold;
   margin-top: -15px;
+  text-align: center;
 }
 
 img {
