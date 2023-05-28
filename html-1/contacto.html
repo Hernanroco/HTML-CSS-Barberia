@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Devil´s Barber Shop</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="Style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <img src="img/logo.jfif" alt="logo" class="logo">
+  <header>
+    <div class="caja">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  
+  </header>
+
+  <main>
+    <div>
+      <form action="">
+        <label for="nombreapellido">Nombre y Apellido</label>
+        <input class="input-padron" type="text" id="nombreapellido" required>
+  
+        <label for="correo">Correo Electronico</label>
+        <input class="input-padron" type="email" id="correo" placeholder="email@dominio.com" required>
+  
+        <label for="numerotelefono">Numero Telefonico</label>
+        <input class="input-padron" type="tel" id="numerotelefono" required>
+  
+        <label for="mensaje">Mensaje</label>
+        <textarea class="input-padron" id="mensaje" cols="70" rows="10" required></textarea>
+  
+        
+    </div>
+    
+      
+      <div class="contactado">
+        <p class="test" id="test">¿Como le gustaria ser contactado?</p>
+
+        <label for="radioemail"><input name="contacto" type="radio" value="email" id="radioemail">Email</label>
+        
+      
+        <label for="radiotelefono"><input name="contacto" type="radio" value="telefono" id="radiotelefono">Telefono</label>
+        
+
+        <label for="radiowhatsapp"><input name="contacto" type="radio" value="whatsapp" id="radiowhatsapp" checked>Whatsapp</label>
+        
+      </div>
+      
+      <div>
+        <p>¿En que horario prefiere ser atendido?</p>
+        <select name="" id="horariopreferencia">
+          <option value="">Mañana</option>
+          <option value="">Tarde</option>
+          <option value="">Noche</option>
+        </select>
+      </div>
+      
+      <label class="checkbox" for=""><input type="checkbox" checked>¿Le gustaria recibir informacion y novedades con respecto a Devil's Barber Shops?</label>
+      
+      <input class="enviar" type="submit" value="Enviar">
+      
+    </form>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    
+    <p>Horarios de atencion</p>
+    <p>Lunes a Sabado 09:00am - 09:00pm</p>
+    <p>Domingos y Festivos 09:00am - 03:00pm</p>
+
+  </main>
+  
+  <footer>
+    <img class="logo-footer" src="img/logo.jfif" alt="logo">
+    <p class="copyright">&copy Copyright Devil's Barber Shop - 2023</p>
+  </footer>
+
+</body>
+</html>
